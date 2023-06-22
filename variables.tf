@@ -45,9 +45,9 @@ variable "InstanceType" {
 								"c5.xlarge", "c5.2xlarge",
 								"c5a.xlarge", "c5a.2xlarge",
 								"c5n.xlarge", "c5n.2xlarge"
-							], var.AppInstanceType)
+							], var.InstanceType)
 		error_message = <<EOF
-AppInstanceType must be one of the following types:
+InstanceType must be one of the following types:
 	t3a.xlarge, t3a.2xlarge,
 	m6i.xlarge, m6i.2xlarge,
 	m6a.xlarge, m6a.2xlarge,
