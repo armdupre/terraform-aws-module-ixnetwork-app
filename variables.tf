@@ -27,7 +27,7 @@ variable "InstanceId" {
 }
 
 variable "InstanceType" {
-	default = "m5.xlarge"
+	default = "t3.xlarge"
 	description = "Instance type of VM"
 	type = string
 	validation {
